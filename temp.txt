@@ -1,0 +1,32 @@
+
+id=2
+name=kishanb
+city=rajkot
+id=2
+name=kishanb
+city=rajkot
+id=1
+name=kishan
+city=toliha=======================
+[1]student id=1
+[1]student name=bhai
+[1]studentcity=bhai=======================
+[1]student id=2
+[1]student name=jay
+[1]studentcity=r
+=======================
+
+[2]student id=2
+[2]student name=jay
+[2]studentcity=r
+=======================
+
+[1]student id=1
+[1]student name=k
+[1]studentcity=s
+=======================
+
+[2]student id=2
+[2]student name=l
+[2]studentcity=s
+=======================
