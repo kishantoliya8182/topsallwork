@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch</title>
+</head>
+<body>
+    <script>
+               
+
+         
+        var a=Number(prompt("enter 1 if you want find area of circle \n enter 2 if you want find area of ractangle \n enter 3 if you want find area of square\n enter 4 if you want find area of  triangle"));
+
+        switch (a) {
+            case 1:
+            var r=Number(prompt("enter radius="));
+            var c=3.14*r*r;
+            document.write("area of circle="+c.toFixed(2));
+                break;
+
+            case 2:
+            var l=Number(prompt("enter length= "));
+            var w=Number(prompt("enter width= "));
+
+            var rec=l*w;
+            document.write("area of rectangle="+rec.toFixed(2));
+                break;
+
+            case 3:
+            var s=Number(prompt("enter side= "));
+            
+
+            var square=s*s;
+            document.write("area of square="+square.toFixed(2));
+                break;
+
+            case 4:
+            var h=Number(prompt("enter hight= "));
+            var b=Number(prompt("enter base= "));
+            
+
+            var tri=(h*b)/2;
+            document.write("area of square="+tri.toFixed(2));
+                break;
+        
+            default:
+                document.write("please enter valid input");
+                break;
+        }
+         
+
+    </script>
+    
+</body>
+</html>
